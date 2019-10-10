@@ -84,3 +84,19 @@ Paste in
 ```
 Log out and log back in
 (https://apple.stackexchange.com/a/16136/37352)
+
+
+
+# 2019 OSX Catalina ZSH
+
+install oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
+```
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+````
+
+in .zshrc:
+
+* pick the `af-magic` theme
+* add the following plugins: `osx` `git` `git-prompt`
+* edit the `af-magic` theme file: replace `git_prompt_info` with `git_super_status`
+* profit
